@@ -2,6 +2,7 @@
 This project is an online to-do list application built using the MERN stack (MongoDB, Express and Node.js). The application is designed to be simple and allow users to easily keep track of their tasks with features such as task creation, and task deletion.
 
 Here the below figure represents the folder or files structure that i have used in VS code...
+![image](https://github.com/21505a0502/ToDoList/assets/131691278/9a614918-c8e3-4b79-b9ec-ed02072765a1)
 
 
 In the above we can see that there are different files presented, here we have a short desccription for each file. like what it is actually used for.
