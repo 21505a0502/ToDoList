@@ -27,6 +27,4 @@ that's it mongoose file is now ready .
 
 ![image](https://github.com/21505a0502/ToDoList/assets/131691278/9580f92c-4c46-4b65-b1ed-f0486c5211b0)
 
-![image](https://github.com/21505a0502/ToDoList/assets/131691278/8b4b8a42-d3cb-4ade-a9c2-ada489a4080c)
-
-
+![image](https://github.com/21505a0502/ToDoList/assets/131691278/49042182-54cc-4b58-a408-78612b95d7ac)
