@@ -20,3 +20,13 @@ that's it mongoose file is now ready .
 ##views -> To-do-frame.ejs this file contains the main user interface of todo list, this file includes html, css, js and ejs code. i haven't created any external css file.. i have already provide requried detailed info about code itself in the file...
 
 ##server.js this file contains controllers such as /(home page controller),adddata, deletedata and server listen creation. adddata controller is used to receive form data and insert the data into the database. deletedata controller is used to delete one or more tasks by using unique ID which is automatically assigned for each object.
+
+![image](https://github.com/21505a0502/ToDoList/assets/131691278/fa4319a4-0d6c-4bd7-8923-746f9ac38144)
+
+![image](https://github.com/21505a0502/ToDoList/assets/131691278/fd69692c-7a74-45b7-80a5-4d30a898332b)
+
+![image](https://github.com/21505a0502/ToDoList/assets/131691278/9580f92c-4c46-4b65-b1ed-f0486c5211b0)
+
+![image](https://github.com/21505a0502/ToDoList/assets/131691278/8b4b8a42-d3cb-4ade-a9c2-ada489a4080c)
+
+
