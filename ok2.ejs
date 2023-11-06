@@ -1,0 +1,50 @@
+<html>
+<head >
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/66e044b8f2.js" crossorigin="anonymous" >
+    </script>
+</head>
+<body>
+    <!--<img src="C:\Users\Dell\OneDrive\Pictures\73d60f0878e4e5c61e76df616bd1818a.jpg" alt="Not available">-->
+    <h1><center><u>TO-DO LIST</u></center></h1>
+    <center><div style="background-color: darkcyan;box-sizing:border-box;width: 500px;text-align: center;height: 125px;">
+        <table align="center">
+    <form action="add-data" method="POST" >
+                <tr><th>Description</th>
+                <th>Category</th>
+                <th>Due Date</th></tr>
+           <tr><th> <input type="text" id="des" name="description"  placeholder="what do you need to do ?" required ></th>
+            <!--<input type="text" id="cat" name="category" placeholder="choose a category"required>-->
+                <th><select name="category" required>
+                    <option>PERSONAL</option>
+                    <option>WORK</option>
+                    <option>SCHOOL</option>
+                    <option>CLEANING</option>
+                    <option>OTHER</option>
+                </select></th>    
+            <th><input type="date" id="date" name="date" placeholder="dd/mm/yyyy" required></th></tr>
+        <tr><th><button type="submit"><i class="fa-solid fa-plus"></i> ADD TASK</button></th>
+        <th><button type="submit">DELETE </button></th></tr>
+           <!--<th> <div class="delete-task">
+                <button type="button" id="delete-task"> <i class="fa-solid fa-trash"></i> DELETE TASK</button>
+            </div></th>-->
+    </form></table>
+    </div></center><br><br>
+    <center><div style="border: 5px;background-color:lightseagreen;table-layout: auto;width: 500px;">
+    <table align="center">
+    <ul>
+        <% for(let i of stu_data) { %>
+            <tr>
+               <th><p id="task-description"></p><input type="checkbox" name="<%= i._id %>"> <%= i.description %></th> 
+                     <th><p id="task-category"></p>:<%= i.category %></th>
+                        <th><i class="fa-regular fa-calendar"></i> <%= i.date %>
+                            <!--<p >: No Deadline</p>-->
+                           <!-- <a href="/delete-task/ <%= i._id%>"><button>delete</button></a>-->
+                        </th>
+            </tr>
+         <% } %>
+    </ul>
+   </table>
+    </div></center>
+</body>
+</html>
